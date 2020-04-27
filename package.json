@@ -1,0 +1,29 @@
+{
+  "name": "db-strategy-pattern",
+  "version": "1.0.0",
+  "main": "core/index.js",
+  "author": {
+    "name": "jimmy-codder"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alluminox/db-strategy-pattern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alluminox/db-strategy-pattern.git"
+  },
+  "homepage": "https://github.com/Alluminox/db-strategy-pattern.git",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "knex": "^0.21.0",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.10",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
