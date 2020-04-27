@@ -9,8 +9,7 @@ class MongooseDatabaseConnector extends DatabaseConnector {
         const { username, password } = auth; 
 
         const isAuth = username ? `${username}:${password}@` : '';
-        const params = config.options.replicaSet ? '?replicaSet=' + config.options.replicaSet : ''
-        return `${dialect}://${isAuth}${hosts.join(',')}/${dbname}${params}`
+        return `${dialect}://${isAuth}${hosts.join(',')}/${dbname}`
     }
 
     async connect(config) {
